@@ -1,6 +1,6 @@
-# 🧠 Filipino Sports RAG Chatbot
+# 🧠RAG Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot focused on Filipino sports. Ask about athletes, teams, and tournaments — and get answers grounded in real documents, not hallucinated guesses.
+A Retrieval-Augmented Generation (RAG) chatbot focused on Two Filipino Boxers
 
 ![LangChain + Groq + Qdrant](https://img.shields.io/badge/Stack-LangChain%20%2B%20Groq%20%2B%20Qdrant-blue)
 
@@ -8,11 +8,10 @@ A Retrieval-Augmented Generation (RAG) chatbot focused on Filipino sports. Ask a
 
 ## 🚀 Features
 
-- 📄 Ingests selected Filipino athlete and team pages
+- 📄 Ingests selected Filipino athlete 
 - 🔍 Fast retrieval using **Qdrant** vector store
 - 🧠 LLM inference via **Groq API** (Mixtral-8x7B)
 - 💡 Clean, context-grounded responses — no training required
-- 🛡️ Secrets handled via `.env` (excluded from Git)
 
 ---
 
